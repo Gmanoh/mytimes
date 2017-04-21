@@ -1,0 +1,40 @@
+* {
+  margin:0;
+  padding:0
+}
+
+header{
+  display:flex;
+  justify-content: space-between;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding:10px 30px;
+  border-bottom: 1px solid black;
+  align-items: center;
+
+}
+
+.mytimestitle{
+  display:flex;
+  align-items: center;
+}
+
+.mytimestitle img{
+  margin-right: 12px;
+}
+.mytimestitle span{
+  color: MediumAquamarine;
+
+}
+
+
+header ul li {
+  display:inline;
+  padding: 20px;
+}
+
+header ul li a{
+  color: black;
+
+}
