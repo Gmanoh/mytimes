@@ -22,7 +22,7 @@ header{
   display:flex;
   align-items: center;
   flex-grow: 1;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 }
 
 .headerNav{
@@ -49,7 +49,7 @@ header ul li a{
 .container-main{
  display:flex;
  justify-content:flex-start;
- border: 1px solid white;
+ /*border: 1px solid white;*/
  width: 1232px;
  margin: 0 62px 78px;
  padding-top: 116px;
@@ -65,7 +65,7 @@ header ul li a{
 .container-main .container-left{
 display:flex;
 width: 630px;
-border: 1px solid white;
+/*border: 1px solid white;*/
 flex-direction: column;
 flex-wrap: wrap;
 }
@@ -73,7 +73,7 @@ flex-wrap: wrap;
 .container-main .container-middle{
 display: flex;
 width: 300px;
-border: 1px solid white;
+/*border: 1px solid white;*/
 flex-direction: column;
 flex-wrap: wrap;
 }
@@ -81,7 +81,7 @@ flex-wrap: wrap;
 .container-main .container-right{
 display:flex;
 width: 240px;
-border: 1px solid white;
+/*border: 1px solid white;*/
 flex-direction: column;
 flex-wrap: wrap;
 }
@@ -116,14 +116,16 @@ flex-wrap: wrap;
 }
 
 .content{
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   display:flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .content h2{
-  margin: 19.920px 0 ;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
 
 }
 
@@ -135,7 +137,7 @@ flex-wrap: wrap;
 }
 
 .img_label{
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -144,6 +146,9 @@ flex-wrap: wrap;
   text-align: center;
   margin: 15px auto;
   width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -152,6 +157,14 @@ flex-wrap: wrap;
   font-size: 40px;
   width:630px;
   text-align: left;
+  display: flex;
+  align-items: center;
+  margin: 0;
+
+}
+
+#img-main span{
+  margin-left: 25px
 }
 
 #img-earth{
